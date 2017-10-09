@@ -40,12 +40,7 @@ public class CookieFilter implements Filter {
                 return;
             }
             
-            
-        
-        
-            System.out.println("Before Cookie Filter");
             chain.doFilter(request, response);
-            System.out.println("After Cookie Filter");
     }
 
     @Override
